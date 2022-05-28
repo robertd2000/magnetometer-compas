@@ -36,21 +36,21 @@ def calculate_angle(x, y):
 
 def compas(angle):
     if angle > 337.25 or angle < 22.5:
-        return "North"
+        return "North (Север)"
     elif 292.5 < angle < 337.25:
-        return "North-West"
+        return "North-West (Северо-Запад)"
     elif 247.5 < angle < 292.5:
-        return "West"
+        return "West (Запад)"
     elif 202.5 < angle < 247.5:
-        return "South-West"
+        return "South-West (Юго-Запад)"
     elif 157.5 < angle < 202.5:
-        return "South"
+        return "South (Юг)"
     elif 112.5 < angle < 157.5:
-        return "South-East"
+        return "South-East (Юго-Восток)"
     elif 67.5 < angle < 112.5:
-        return "East"
+        return "East (Восток)"
     elif 0 < angle < 67.5:
-        return "North-East"
+        return "North-East (Северо-Восток)"
 
 
 def main():
